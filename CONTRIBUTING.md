@@ -1,78 +1,109 @@
-# Welcome-to-open-source Contributor Guide
+🚀 Welcome to Open Source Contributor Guide
+✅ Steps to Add Yourself to the Contributors List:
+Install Git
+Download and install Git from here.
 
-## Steps to add yourself to the contributers list.
+Fork the Repository
+Go to the Welcome-to-Open-Source repository and click on the Fork button.
 
-1) You will first need git which you can download from [here](https://git-scm.com/downloads).
+Create a Fork
+On the next page, click on the Create fork button.
 
-2) Now head [here](https://github.com/alisolanki/Welcome-to-Open-Source) and click on the `fork` button.
+Copy the Repository URL
+On your forked repo page, click the green <> Code button and copy the URL.
 
-3) On the next page you will see a `create fork` button, press it.
+Clone the Repository Locally
+Open your terminal and run:
 
-4) You will land on your forked repo page, here you will see a `<> Code` button marked in green, click on it and copy the url.
+git clone <paste-your-copied-url-here>
+Open and Edit the Repository
+Navigate to the Welcome-to-Open-Source folder and open the README.md file using a text editor (e.g., VS Code).
 
-5) Open your terminal and type git clone <url you copied> and press enter.
+Add Your Info
+Below is a code snippet that you need to copy and modify.
 
-6) Now you will see a folder named `Welcome-to-Open-Source`, open it and edit the `README.md` file using any text editor, VScode for example.
+Replace the href value with your GitHub profile link.
 
-7) Below is a code snippet for reference as to what has to ADDED in the file. Inside the `<b> </b>` tag you have to put your name, in the `<href >` tag, you have to place your github profile URL. And lastly you have to place your github profile photo url inside the `src` tag.
+Replace the src value with your GitHub profile image URL.
 
-    ```
-    <td align="center">
-        <a href="https://alisolanki.com/">
-            <img src="https://avatars.githubusercontent.com/u/55312000?v=4" width="100px;" alt="Ali Solanki"/>
-            <br />
-            <sub><b>Ali Solanki</b></sub>
-        </a>
-    </td>
-           <td align="center">
-                <a href="https://github.com/aryanmangrule402/">
-                    <img src="https://avatars.githubusercontent.com/u/132284891?v=4" width="100px;" alt="Ali Solanki"/>
-                    <br />
-                    <sub><b>Aryan  Mangrule</b></sub>
-                </a> 
-            </td>
-    <td align="center">
-        <a href="https://github.com/Sahitha03">
-            <img src="https://avatars.githubusercontent.com/u/110535773?v=4" width="100px;" alt="Aluri Sai Sahitha"/>
-            <br />
-            <sub><b>Aluri Sai Sahitha</b></sub>
-        </a>
-    </td>
-     <td align="center">
-        <a href="https://github.com/neeraj500">
-            <img src="https://avatars.githubusercontent.com/u/81459147?v=4" width="100px;" alt="Neeraj Madake"/>
-            <br />
-            <sub><b>Neeraj Madake
-        </a>
-    </td>
-     <td align="center">
-        <a href="https://github.com/misha141">
-            <img src="https://avatars.githubusercontent.com/u/39346270?v=4 width="100px;" alt="Neeraj Madake"/>
-            <br />
-            <sub><b>Misha Kumari</b></sub>
-        </a>
-    </td>
-     <td align="center">
-        <a href="https://github.com/PriyatoshKumarShahi">
-            <img src="https://avatars.githubusercontent.com/u/174815858?v=4" width="100px;" alt="Neeraj Madake"/>
-            <br />
-            <sub><b>Priyatosh Kumar</b></sub>
-        </a>
-    </td>
-     <td align="center">
-        <a href="https://github.com/Sathvik-Shetty-1569">
-            <img src="https://avatars.githubusercontent.com/u/192092160?v=4" width="100px;" alt="Sathvik Shetty"/>
-            <br />
-            <sub><b>Sathvik Shetty
-        </a>
-    </td>
-    
-    ```
+Replace the name inside <b> </b> with your full name.
 
-8) Now save your changes and exit the editor, type `git add .`, afterwards `git commit -m "<your name> 🍉"` and lastly `git push origin master`.
+<td align="center">
+    <a href="https://github.com/your-username">
+        <img src="https://avatars.githubusercontent.com/u/your-user-id?v=4" width="100px;" alt="Your Name"/>
+        <br />
+        <sub><b>Your Name</b></sub>
+    </a>
+</td>
+✅ Example entries (already added):
 
-9) Go to your forked repo page, `sync` your fork and then there you will see a button in green which says `Open pull request`, press it and in the comments section type "Adding my name to contributer list" and press on `create pull request`.
+<td align="center">
+    <a href="https://github.com/aryanmangrule402/">
+        <img src="https://avatars.githubusercontent.com/u/132284891?v=4" width="100px;" alt="Aryan Mangrule"/>
+        <br />
+        <sub><b>Aryan Mangrule</b></sub>
+    </a> 
+</td>
 
-10) You have created a pull request, wait for a member to review and merge it : )
+<td align="center">
+    <a href="https://github.com/Sahitha03">
+        <img src="https://avatars.githubusercontent.com/u/110535773?v=4" width="100px;" alt="Aluri Sai Sahitha"/>
+        <br />
+        <sub><b>Aluri Sai Sahitha</b></sub>
+    </a>
+</td>
 
-Lastly, GitHub/Git are vital in open-source contributions, to learn more about them check this blog [here](https://dragon2002.hashnode.dev/git-and-github-must-know-guide#heading-setting-up-github).
+<td align="center">
+    <a href="https://github.com/neeraj500">
+        <img src="https://avatars.githubusercontent.com/u/81459147?v=4" width="100px;" alt="Neeraj Madake"/>
+        <br />
+        <sub><b>Neeraj Madake</b></sub>
+    </a>
+</td>
+
+<td align="center">
+    <a href="https://github.com/misha141">
+        <img src="https://avatars.githubusercontent.com/u/39346270?v=4" width="100px;" alt="Misha Kumari"/>
+        <br />
+        <sub><b>Misha Kumari</b></sub>
+    </a>
+</td>
+
+<td align="center">
+    <a href="https://github.com/PriyatoshKumarShahi">
+        <img src="https://avatars.githubusercontent.com/u/174815858?v=4" width="100px;" alt="Priyatosh Kumar"/>
+        <br />
+        <sub><b>Priyatosh Kumar</b></sub>
+    </a>
+</td>
+
+<td align="center">
+    <a href="https://github.com/Sathvik-Shetty-1569">
+        <img src="https://avatars.githubusercontent.com/u/192092160?v=4" width="100px;" alt="Sathvik Shetty"/>
+        <br />
+        <sub><b>Sathvik Shetty</b></sub>
+    </a>
+</td>
+Commit Your Changes
+
+
+git add .
+git commit -m "Your Name 🍉"
+git push origin master
+Open a Pull Request
+
+Go back to your forked repo on GitHub.
+
+Click Sync fork (if needed).
+
+Then, click on Open Pull Request.
+
+In the comment, write:
+
+Adding my name to the contributor list
+
+Click Create Pull Request.
+
+🎉 All Done!
+You've successfully submitted your first contribution. Now wait for it to be reviewed and merged!
+
